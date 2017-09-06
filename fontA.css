@@ -1,0 +1,44 @@
+/* What is "Inheritance" in CSS? What is the "Cascade" in CSS? */
+
+body, html {
+	height: 100vh;
+	margin: 1vw;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+body {
+	font-family: 'Baloo Bhaijaan', cursive;
+	color: #7B1FA2;
+	text-align: center;
+	font-size: 150%;
+	
+	background-image: url("../images/totality.JPG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
+
+h1 {
+	color: #03A9F4;
+	text-align: left;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	text-align: right;
+}
+
+
+/* What is the default value for the CSS property? Is it inherited by its children DIVs?
+
+https://www.w3schools.com/cssref/pr_font_font-family.asp
+https://www.w3schools.com/cssref/pr_text_color.asp
+https://www.w3schools.com/cssref/pr_text_text-align.asp
+https://www.w3schools.com/cssref/pr_font_font-size.asp
+
+*/
